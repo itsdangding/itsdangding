@@ -1,6 +1,11 @@
-# Hi, I'm Dang Ding
+<div align="center">
 
-When the same small thing bugs me often enough, I usually end up building a tool for it. This is where they live. Most of them run entirely on your own machine and don't upload anything.
+# Hi, I'm Dang Ding 👋
+
+When the same small thing bugs me often enough, I usually end up building a tool for it.<br>
+This is where they live. Most of them run entirely on your own machine and don't upload anything.
+
+</div>
 
 ## Documents
 
