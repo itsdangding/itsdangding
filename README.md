@@ -1,68 +1,33 @@
-<div align="center">
+# Hi, I'm Dang Ding
 
-# Hi, I'm Dang Ding 👋
+When the same small thing bugs me often enough, I usually end up building a tool for it. This is where they live. Most of them run entirely on your own machine and don't upload anything.
 
-**I build things I wish already existed.**
+## Documents
 
-Open-source tools, AI experiments, and small products for problems that keep bothering me.
+[md2word](https://github.com/itsdangding/md2word): Markdown copied out of ChatGPT, Claude or Cursor doesn't paste cleanly into Word, and the math is the worst part. md2word turns it into Word-ready text, a .docx or a PDF, and converts the LaTeX into equations you can still edit in Word. Nothing leaves your computer.
 
-</div>
+## Reading and listening in other languages
 
-Most of my projects start the same way: I run into something annoying, wonder why there isn't a better tool for it, and eventually build one.
+[Russian Stress](https://github.com/itsdangding/russian-stress-extension): normal Russian text doesn't show where the stress falls. This Chrome/Edge extension adds the marks to any page, selection or text box, using an offline dictionary of more than 1.1 million word forms. When a word could go either way, like за́мок (castle) and замо́к (lock), it shows both instead of guessing.
 
-I care about software that becomes useful quickly, feels like a product rather than a demo, and turns AI output into something people can actually use.
+[youtube-subtitle-downloader](https://github.com/itsdangding/youtube-subtitle-downloader): paste a YouTube link, get the subtitles back as clean Markdown with timestamps. Choppy caption lines are merged into paragraphs, and human-made subtitles win over auto-generated ones. It works as a Claude Code skill or a plain CLI.
 
-## Selected builds
+[sub2study](https://github.com/itsdangding/sub2study) goes one step further and turns a video into a bilingual study guide, as a PDF for reading on paper or an iPad and as Markdown for your notes. It strips the rolling repeats out of auto-captions first, keeps a timestamp on every paragraph, and pulls out a vocabulary list with IPA.
 
-### ✍️ [GesturePad](https://github.com/itsdangding/GesturePad)
-**Hold, draw, release — and your Mac does the rest.**
+[russian-learning-app](https://github.com/itsdangding/russian-learning-app) is an earlier take on the same idea: Russian vocabulary taken from real podcasts, reviewed with FSRS spaced repetition.
 
-A macOS menu bar app for mouse, trackpad and hot-corner gestures: draw a W to open an app, swipe left to go back, push the pointer into a corner to lock the screen. Every gesture is editable, letters can learn your handwriting, and nothing leaves the Mac.
+## Attention
 
-### 🌊 [AttentionFlow](https://github.com/itsdangding/attentionflow)
-**See where your attention actually went.**
+[AttentionFlow](https://github.com/itsdangding/attentionflow): browser history tells you what you opened. It doesn't tell you what scrolled past, what made you stop, or what you read closely. AttentionFlow tracks that on [Linux DO](https://linux.do) and turns your week into a shareable “attention receipt”, with post titles hidden unless you choose to show them. Everything stays in your browser.
 
-A local-first browser extension for reconstructing what you passed, noticed, clicked, and actually read while browsing. The first adapter focuses on Linux DO; the broader idea is personal analytics for attention without sending browsing history to a server.
+## On the Mac
 
-### 🎓 [sub2study](https://github.com/itsdangding/sub2study)
-**Turn raw YouTube subtitles into a study guide.**
+[GesturePad](https://github.com/itsdangding/GesturePad): a menu bar app for mouse and trackpad gestures. Hold the right button and draw a W to open an app, swipe left to go back, or push the pointer into a corner and scroll to change the volume. You can edit every gesture, and if it misreads a letter, you can record how you write it. It also lets the mouse wheel and the trackpad scroll in different directions, which macOS can't do on its own.
 
-A pipeline for transforming messy subtitles into structured bilingual learning material with timestamps, vocabulary, IPA, Markdown, and printable PDF output.
+## Smaller experiments
 
-### 📝 [md2word](https://github.com/itsdangding/md2word)
-**Turn AI Markdown into Word and PDF without wrecking the document.**
+- [gemini-tts-deck](https://github.com/itsdangding/gemini-tts-deck): a recording-desk style interface for Gemini text-to-speech, from script to voice, style and saved takes.
+- [agent-atlas](https://github.com/itsdangding/agent-atlas): when you run into an unfamiliar agent term, it shows where the term sits next to context, memory and RAG, not just what it means. [Read it online](https://itsdangding.github.io/agent-atlas/).
+- [minimal-oil-cover](https://github.com/itsdangding/minimal-oil-cover): an agent skill that draws minimal oil-painting covers from a photo or a topic.
 
-A document pipeline for converting Markdown-heavy AI output — including equations and rich formatting — into files that are easier to submit, edit, and share.
-
-### 🇷🇺 [russian-stress-extension](https://github.com/itsdangding/russian-stress-extension)
-**Add Russian stress marks anywhere on the web, offline.**
-
-A Chrome/Edge extension for Russian learners that annotates stress directly on webpages, selections, and inputs using a fully local dictionary pipeline.
-
-## More experiments
-
-- 🎙️ [gemini-tts-deck](https://github.com/itsdangding/gemini-tts-deck) — a recording-console interface for AI speech generation.
-- 📥 [youtube-subtitle-downloader](https://github.com/itsdangding/youtube-subtitle-downloader) — a small agent-friendly tool for extracting structured subtitles.
-- 🗺️ [agent-atlas](https://github.com/itsdangding/agent-atlas) — experiments around agents, tools, and autonomous workflows.
-- 🌐 [laiekankan](https://github.com/itsdangding/laiekankan) — another product experiment from the same “build the tool I wish existed” habit.
-
-## What I care about
-
-- **Useful before impressive.** A project should solve a real annoyance before it shows off a stack.
-- **The first 10 seconds matter.** People should understand what a tool does without reading an architecture document.
-- **Local-first when it makes sense.** Personal data should not need to leave the device just to become useful.
-- **AI should produce artifacts, not just answers.** The interesting part often begins after the prompt.
-
-## Currently exploring
-
-**After the Prompt** — what happens when AI output has to become something people can actually use, edit, ship, or learn from.
-
-I'm spending more time on agent-native tools, personal software, and making open-source projects easier to understand and launch.
-
-If one of these projects is useful to you, open an issue, send a PR, or follow along — there will be more.
-
----
-
-<div align="center">
-  <sub>Build things. Use them. Notice what still feels annoying. Build again.</sub>
-</div>
+If something here breaks or you want a feature, open an issue. PRs are welcome too.
