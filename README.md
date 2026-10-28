@@ -14,6 +14,11 @@ I care about software that becomes useful quickly, feels like a product rather t
 
 ## Selected builds
 
+### ✍️ [GesturePad](https://github.com/itsdangding/GesturePad)
+**Hold, draw, release — and your Mac does the rest.**
+
+A macOS menu bar app for mouse, trackpad and hot-corner gestures: draw a W to open an app, swipe left to go back, push the pointer into a corner to lock the screen. Every gesture is editable, letters can learn your handwriting, and nothing leaves the Mac.
+
 ### 🌊 [AttentionFlow](https://github.com/itsdangding/attentionflow)
 **See where your attention actually went.**
 
